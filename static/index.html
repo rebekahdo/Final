@@ -1,15 +1,34 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Node on Azure</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-<p>This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.</p>
-
-Additional application functionality includes:<br />
-<a href="fetching-from-server.html">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-<a href="fetching-remote-dog-breeds.html">Accessing Remote Application Programming Interfaces (APIs)</a>
+    <section class="top-banner">
+        <div class="container">
+    <h1 class="heading">The Weather App</h1>
+    <span class="directions">Directions: Type in a city name.</span>
+    <form>
+        <input type="text" placeholder="Search a city" autofocus>
+        <button type="submit">Submit</button>
+        <span class="msg"></span>
+            </form>
+        </div>
+    </section>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    <footer class="page-footer">
+  <div class="container">
+    <small>Made by Rebekah Myrick for CPSC-24700
+    </small>
+  </div>
+</footer>
+    <script src="index.js"></script>    
 </body>
 </html>

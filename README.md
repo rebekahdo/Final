@@ -1,3 +1,11 @@
-# Node.js and Express Hosted on Microsoft Azure Template
-This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.
+## Created By:
+Rebekah Myrick
+CPSC-24700 
+6/29/2022
+
+## About
+Simple Weather App with HTML, CSS, and Javascript
+Uses https://home.openweathermap.org/ for API
+
+## Visit
+https://fppapp.azurewebsites.net/
